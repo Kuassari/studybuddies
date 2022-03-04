@@ -10,6 +10,8 @@ import com.project.studybuddies.model.StudentModel;
 
 public class StudentService {
 
+
+/*
     private static ArrayList<StudentModel> students = new ArrayList<StudentModel>();
 
     // take data from student repository, need editing
@@ -44,4 +46,6 @@ public class StudentService {
 
         return student.getCourses();
     }
+*/
+
 }
