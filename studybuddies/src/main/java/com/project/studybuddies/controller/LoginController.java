@@ -7,9 +7,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 public class LoginController {
 
+/*
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String showLoginPage(ModelMap model) {
         model.put("name", "StudyBuddy");
         return "Welcome!!";
     }
+*/
+
 }
