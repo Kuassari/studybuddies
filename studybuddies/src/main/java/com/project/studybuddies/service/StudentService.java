@@ -1,15 +1,6 @@
 package com.project.studybuddies.service;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import org.springframework.stereotype.Component;
-
-import com.project.studybuddies.model.CourseModel;
-import com.project.studybuddies.model.StudentModel;
-
 public class StudentService {
-
 
 /*
     private static ArrayList<StudentModel> students = new ArrayList<StudentModel>();
