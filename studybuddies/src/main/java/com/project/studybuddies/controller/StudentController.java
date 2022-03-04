@@ -10,10 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 import com.project.studybuddies.model.CourseModel;
 import com.project.studybuddies.model.StudentModel;
 import com.project.studybuddies.service.StudentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Scope(value = "session")
+@Component(value = "StudentModel")
 
 @RestController
 public class StudentController {
 
+/*
     @Autowired
     private StudentService studentService;
 
@@ -21,4 +28,6 @@ public class StudentController {
     public List<CourseModel> retrieveCoursesForStudent(@PathVariable String studentId) {
         return studentService.retrieveCourses(studentId);
     }
+*/
+
 }
