@@ -1,18 +1,15 @@
 package com.project.studybuddies.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import com.project.studybuddies.model.StudentModel;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
+@Component("loginController")
+@Scope("request")
 public class LoginController {
 
-/*
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String showLoginPage(ModelMap model) {
-        model.put("name", "StudyBuddy");
-        return "Welcome!!";
-    }
-*/
+   @Autowired
+    private StudentModel student;
 
 }

@@ -11,6 +11,10 @@
 		http://www.springframework.org/schema/faces
 		http://www.springframework.org/schema/faces/spring-faces.xsd">
 
+    <bean class="org.springframework.faces.web-flow.JsfFlowHandlerAdapter">
+        <property name="flowExecutor" ref="flowExecutor" />
+    </bean>
+
     <!-- Execute flows: the central entry point into the Spring Web Flow system -->
     <webflow:flow-executor id="flowExecutor">
         <webflow:flow-execution-listeners>

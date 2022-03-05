@@ -1,16 +1,7 @@
 package com.project.studybuddies.repository;
 
-import com.project.studybuddies.DB_Connection;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-
-
 public class StudentRepository {
+/*
     private Connection dbConnection;
 
     public StudentRepository() throws Exception {
@@ -73,5 +64,6 @@ public class StudentRepository {
         }
         return false;
     }
+*/
 
 }
